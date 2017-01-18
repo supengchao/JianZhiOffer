@@ -1,4 +1,4 @@
-package com.supengchao.github.jianzhioffer;
+package com.supengchao.github.jianzhioffer.suanfa;
 
 /**
  * Created by supengchao on 16/12/1.

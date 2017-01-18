@@ -1,6 +1,4 @@
-package com.supengchao.github.jianzhioffer;
-
-import android.util.Log;
+package com.supengchao.github.jianzhioffer.sort;
 
 /**
  * Created by supengchao on 17/1/9.

@@ -1,4 +1,4 @@
-package com.supengchao.github.jianzhioffer;
+package com.supengchao.github.jianzhioffer.sort;
 
 /**
  * Created by supengchao on 17/1/10.
