@@ -56,6 +56,8 @@ public class Test {
 //        bi3 = bi1.add(bi2);
 //        String str = "Result of addition is " +bi3;;
 //        System.out.println( str );
+
+        method3();
     }
 
     public int method1() {
@@ -76,6 +78,15 @@ public class Test {
         }
     }
 
+    public static void method3(){
+        int elementCount=10;
+//        int index1 = --elementCount;
+//        int index = (elementCount--);
+//        System.out.println(index);
+//        System.out.println(elementCount--);
+//        System.out.println(index1);
+        System.out.println(--elementCount);
+    }
 
     public void myMethod(String str) {
         System.err.println("string");
