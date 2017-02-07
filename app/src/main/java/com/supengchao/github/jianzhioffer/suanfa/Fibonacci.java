@@ -2,6 +2,8 @@ package com.supengchao.github.jianzhioffer.suanfa;
 
 /**
  * Created by supengchao on 17/2/7.
+ * 斐波那契数列问题
+ * 用递归实现的过程中会出现重复计算的情况，此时，可以利用动态规划的思想，保存中间结果，这样可以避免不必要的计算。
  */
 
 public class Fibonacci {
