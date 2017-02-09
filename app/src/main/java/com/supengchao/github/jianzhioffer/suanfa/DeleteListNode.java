@@ -2,6 +2,12 @@ package com.supengchao.github.jianzhioffer.suanfa;
 
 /**
  * Created by supengchao on 17/2/8.
+ * 题目大致为：
+ * 给定单向链表的头指针和一个结点指针，定义一个函数在O(1)时间删除该结点。
+ * 思路：
+ * 想要在O(1)时间内删除链表的指定结点，要遍历的话得O(n)，则肯定不能遍历。若是要删除的结点不是尾结点，
+ * 那么可以将后面的那个值复制到该指针处，并将后面指针所指空间删除，用复制+删除后面的实现删除，时间复杂度为O(1)。
+ * 对于尾结点，需要遍历，那么时间复杂度是O(n)，但是总的时间复杂度为[(n-1)*O(1)+O(n)]/n，结果是O(1)。
  */
 
 public class DeleteListNode {
@@ -47,7 +53,7 @@ public class DeleteListNode {
 
         printNode(head);
         System.out.println("--------");
-        deleteNode(head, head);
+        deleteNode(head, node2);
         System.out.println("--------");
         printNode(head);
     }
