@@ -34,14 +34,20 @@ public class Item18 {
         return result;
     }
 
+    /**
+     *
+     * @param root1  主树
+     * @param root2  子树
+     * @return
+     */
     private static boolean DoesTree1HasTree2(BinaryTreeNode root1, BinaryTreeNode root2) {
         if (root2 == null) {
-            // 证明Tree2已经遍历结束，匹配成功
+            // 子树为空，肯定子树在主树里面
             return true;
         }
 
         if (root1 == null) {
-            // 证明Tree1已经遍历结束，匹配失败
+            // 主树为空，子树肯定不在主树种
             return false;
         }
 
