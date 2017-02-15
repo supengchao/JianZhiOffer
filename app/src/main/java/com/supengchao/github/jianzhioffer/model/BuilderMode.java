@@ -4,7 +4,7 @@ package com.supengchao.github.jianzhioffer.model;
  * Created by supengchao on 17/2/14.
  */
 
-public class BuilderModel {
+public class BuilderMode {
     static class Person {
         private String name;
         private int age;
