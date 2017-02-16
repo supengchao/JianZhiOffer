@@ -1,4 +1,4 @@
-package com.supengchao.github.jianzhioffer.model;
+package com.supengchao.github.jianzhioffer.mode;
 
 /**
  * Created by supengchao on 17/2/15.

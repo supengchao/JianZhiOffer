@@ -1,10 +1,13 @@
-package com.supengchao.github.jianzhioffer.model;
+package com.supengchao.github.jianzhioffer.mode;
+
+import java.io.Serializable;
 
 /**
  * Created by supengchao on 17/2/14.
  */
 
 public class BuilderMode {
+
     static class Person {
         private String name;
         private int age;
