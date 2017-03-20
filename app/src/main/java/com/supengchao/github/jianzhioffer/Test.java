@@ -120,5 +120,13 @@ public class Test {
         }
     }
 
-
+//    public static int method4(int v){
+//        int count = 0;
+//        int x = v;
+//        while(x){
+//            count++;
+//            x= x&(x-1);
+//        }
+//        return count;
+//    }
 }
